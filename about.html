@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="scroll-down.js"></script>
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/rotating-card.css" rel="stylesheet" />
+  <script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+
+  <title>About</title>
+
+</head>
+
+<body>
+  <div class="main">
+    <section id="section2">
+      <h1 class="display-4" style="padding-bottom:60px">About us</h1>
+
+      <h1 class="display-4" style="padding-bottom:60px">Our Team</h1>
+      <div class="card-columns">
+        <div class="card-container" style="width:300px margin-left:30px">
+               <div class="card" style="width:300px">
+                   <div class="front">
+                       <div class="cover">
+                           <img src="images/rotating_card_thumb3.png"/>
+                       </div>
+                       <div class="user">
+                           <img class="img-circle" src="images/rotating_card_profile.png"/>
+                       </div>
+                       <div class="content">
+                           <div class="main">
+                               <h3 class="name">Aaryaa Padhyegurjar</h3>
+                               <p class="profession">Co-founder</p>
+
+                               <p class="text-center">Intro</p>
+                           </div>
+                           <div class="footer">
+                               <div class="rating">
+                                   <i class="fa fa-mail-forward"></i> Hover for more details
+                               </div>
+                           </div>
+                       </div>
+                   </div> <!-- end front panel -->
+                   <div class="back">
+                       <div class="header">
+                           <h5 class="motto">"Personal Info"</h5>
+                       </div>
+                       <div class="content">
+                           <div class="main">
+                               <h4 class="text-center">Job Description</h4>
+                               <p class="text-center">Skills</p>
+
+                               <div class="stats-container">
+                                   <div class="stats">
+                                       <p>
+                                           Projects
+                                       </p>
+                                   </div>
+                               </div>
+
+                           </div>
+                       </div>
+                       <div class="footer">
+                           <div class="social-links text-center">
+                               <a href="https://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                               <a href="https://creative-tim.com" class="linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                               <a href="https://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                           </div>
+                       </div>
+                   </div> <!-- end back panel -->
+               </div> <!-- end card -->
+           </div> <!-- end card-container -->
+           <div class="card-container" style="width:300px margin-left:30px">
+                  <div class="card" style="width:300px">
+                      <div class="front">
+                          <div class="cover">
+                              <img src="images/rotating_card_thumb3.png"/>
+                          </div>
+                          <div class="user">
+                              <img class="img-circle" src="images/rotating_card_profile.png"/>
+                          </div>
+                          <div class="content">
+                              <div class="main">
+                                  <h3 class="name">Akhil Singhal</h3>
+                                  <p class="profession">Co-founder</p>
+
+                                  <p class="text-center">Intro</p>
+                              </div>
+                              <div class="footer">
+                                  <div class="rating">
+                                      <i class="fa fa-mail-forward"></i> Hover for more details
+                                  </div>
+                              </div>
+                          </div>
+                      </div> <!-- end front panel -->
+                      <div class="back">
+                          <div class="header">
+                              <h5 class="motto">"Personal Info"</h5>
+                          </div>
+                          <div class="content">
+                              <div class="main">
+                                  <h4 class="text-center">Job Description</h4>
+                                  <p class="text-center">Skills</p>
+
+                                  <div class="stats-container">
+                                      <div class="stats">
+                                          <p>
+                                              Projects
+                                          </p>
+                                      </div>
+                                  </div>
+
+                              </div>
+                          </div>
+                          <div class="footer">
+                              <div class="social-links text-center">
+                                  <a href="https://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                  <a href="https://creative-tim.com" class="linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                  <a href="https://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                              </div>
+                          </div>
+                      </div> <!-- end back panel -->
+                  </div> <!-- end card -->
+              </div> <!-- end card-container -->
+              <div class="card-container" style="width:300px margin-left:30px">
+                     <div class="card" style="width:300px">
+                         <div class="front">
+                             <div class="cover">
+                                 <img src="images/rotating_card_thumb3.png"/>
+                             </div>
+                             <div class="user">
+                                 <img class="img-circle" src="images/rotating_card_profile.png"/>
+                             </div>
+                             <div class="content">
+                                 <div class="main">
+                                     <h3 class="name">Amogh Gajare</h3>
+                                     <p class="profession">Co-founder</p>
+
+                                     <p class="text-center">Intro</p>
+                                 </div>
+                                 <div class="footer">
+                                     <div class="rating">
+                                         <i class="fa fa-mail-forward"></i> Hover for more details
+                                     </div>
+                                 </div>
+                             </div>
+                         </div> <!-- end front panel -->
+                         <div class="back">
+                             <div class="header">
+                                 <h5 class="motto">"Personal Info"</h5>
+                             </div>
+                             <div class="content">
+                                 <div class="main">
+                                     <h4 class="text-center">Job Description</h4>
+                                     <p class="text-center">Skills</p>
+
+                                     <div class="stats-container">
+                                         <div class="stats">
+                                             <p>
+                                                 Projects
+                                             </p>
+                                         </div>
+                                     </div>
+
+                                 </div>
+                             </div>
+                             <div class="footer">
+                                 <div class="social-links text-center">
+                                     <a href="https://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                     <a href="https://creative-tim.com" class="linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                     <a href="https://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                 </div>
+                             </div>
+                         </div> <!-- end back panel -->
+                     </div> <!-- end card -->
+                 </div> <!-- end card-container -->
+      </div>
+  </div>
+
+</body>
+
+</html>
